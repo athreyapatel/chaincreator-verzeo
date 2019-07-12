@@ -5,7 +5,8 @@ Download gitbash/ github desktop first
 ```
 I will let you know how to work further
  
- 
+[Link to Master Branch page](https://athreyapatel.github.io/chaincreator-verzeo/)
+
  ### From gitbasics repo
 # Git Basics
 
