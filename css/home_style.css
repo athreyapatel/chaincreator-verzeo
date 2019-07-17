@@ -1,33 +1,4 @@
 
-/*#rectangle{
-  border: 1px solid;
-    width:520px;
-    height:24px;
-    background:#d5b069;
-    opacity: 0.7;
-}*/
-/*.flex-container {
-  display: flex;
-  flex-wrap: nowrap;
-  padding: 15px 0px;
-}
-
-.flex-container > div {
-  text-align: center;
-  font-size: 30px;
-  padding-right: 8px;
-}
-
-.flex-container > span {
-  background-color: #d5b069;
-   width:520px;
-    height:24px;
-  text-align: center;
-  padding-top: 8px;
-  border: 1px solid;
-opacity: 0.7;
-}*/
-
 .list-group-item.list-group-item-action.active {
   background-color:#d5b069;
   opacity: 0.7;
