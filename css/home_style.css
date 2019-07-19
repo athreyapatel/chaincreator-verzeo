@@ -57,7 +57,7 @@ div.desc {
 .clearfix:after {
   content: "";
   display: table;
-  clear: both;s
+  clear: both;
 }
 
 .carousel-inner img {
