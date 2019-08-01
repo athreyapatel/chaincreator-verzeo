@@ -30,6 +30,22 @@ div.desc {
   border-top-style: solid;
 }
 
+.table {
+    padding-bottom: 20px;
+}
+
+div.desc_more{
+  width: 60%;
+
+  border-right: 1px solid #e5e5e5;
+
+  float: left;
+
+  display: table-cell;
+
+  height: 358px;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -37,7 +53,7 @@ div.desc {
 .responsive {
   padding: 5px 6px;
   float: left;
-  width: 24.99999%;
+  width: 24.99%;
 }
 
 @media only screen and (max-width: 700px) {
