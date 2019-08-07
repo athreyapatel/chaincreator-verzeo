@@ -126,10 +126,8 @@ i {
 }
 
 #sidebar ul li a:hover {
-/*    color: #7386D5;
-    background: #fff;*/
-    color: #111112;
-    background: #7386D5;
+    color: #7386D5;
+    background: #fff;
 }
 
 #sidebar ul li a i {
@@ -157,7 +155,7 @@ a[data-toggle="collapse"] {
 ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
-    background: #302E2F/*#6d7fcc*/;
+    background: #6d7fcc;
 }
 
 ul.CTAs {
