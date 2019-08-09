@@ -65,6 +65,7 @@ div.desc {
     height: 100%;
     border: 2px solid;
   }
+
 #myFooter {
     background-color: #3c3d41;
     color: white;
@@ -189,4 +190,3 @@ body{
    flex: 0 0 auto;
    -webkit-flex: 0 0 auto;
 }
->>>>>>> master
