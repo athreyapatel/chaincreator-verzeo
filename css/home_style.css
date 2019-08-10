@@ -65,8 +65,7 @@ div.desc {
     height: 100%;
     border: 2px solid;
   }
-
-  #myFooter {
+#myFooter {
     background-color: #3c3d41;
     color: white;
     padding-top: 30px;
@@ -189,4 +188,3 @@ body{
 #myFooter{
    flex: 0 0 auto;
    -webkit-flex: 0 0 auto;
-}
