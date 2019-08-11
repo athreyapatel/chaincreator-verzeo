@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>VR Unreal</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+    <link rel="stylesheet"  type="text/css"  href="..\css\home_subpage.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="wrapper">
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>Chaincreator</h3>
+                <strong>CC</strong>
+            </div>
+
+            <ul class="list-unstyled components">
+                <li class="active">
+                    <a href="index.html">
+                        <i class="fas fa-home"></i>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="about.html">
+                        <i class="fas fa-briefcase"></i>
+                        About
+                    </a>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <i class="fas fa-copy"></i>
+                        Pages
+                    </a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                        <li>
+                            <a href="automotive.html">Automotive</a>
+                        </li>
+                        <li>
+                            <a href="beautyhealth.html">Beauty & Health</a>
+                        </li>
+                        <li>
+                            <a href="business_services.html">Business Services</a>
+                        </li>
+                        <li>
+                            <a href="education.html">Education</a>
+                        </li>
+                        <li>
+                            <a href="food.html"> Food & Beverages</a>
+                        </li>
+                        <li>
+                            <a href="hotel.html">Hotel</a>
+                        </li>
+                        <li>
+                            <a href="travel.html">Travel</a>
+                        </li>
+                        <li>
+                            <a href="retail.html">Retail</a>
+                        </li>
+                        <li>
+                            <a href="dealer.html">Dealers & Distributors</a>
+                        </li>
+                        <li>
+                            <a href="fashion.html">Fashion</a>
+                        </li>
+                        <li>
+                            <a href="home.html">Home Based Business</a>
+                        </li>
+                        <li>
+                            <a href="industry.html">Industrial Machinery & Manufacturing </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="./../question.html">
+                        <i class="fas fa-question"></i>
+                        FAQ
+                    </a>
+                </li>
+                <li>
+                    <a href="./../contact.html">
+                        <i class="fas fa-paper-plane"></i>
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <!-- Page Content  -->
+        <div  class="container" id="content">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="btn btn-info">
+                        <i class="fas fa-align-left"></i>
+                    </button>
+                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+                </div>
+            </nav>
+
+
+            <h2>VR Unreal</h2>  <!-- ADD FRANCHISE NAME -->
+            <div class="line1"></div>
+            <div id="cara" class="carousel slide" style="padding-top: 20px " data-ride="carousel">
+                <ul class="carousel-indicators">
+                    <li data-target="#cara" data-slide-to="0" class="active"></li>
+                    <li data-target="#cara" data-slide-to="1"></li>
+                    <li data-target="#cara" data-slide-to="2"></li>
+                </ul>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="data:image/jpeg;base64,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" alt="IMAGE" width="1100" height="500">
+                    </div>
+              
+            <a class="carousel-control-prev" href="#cara" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#cara" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+            </div>
+
+            <!-- EDIT TABLE AS NEEDED -->
+
+            <table class="table table-bordered">
+                <tbody>
+                    <tr>
+                        <td><center>Area Req<br>500-1000 sq.ft</center></td>
+                        <td><center>Investment Range<br>INR 20 lac-30 lac</center></td>
+                        <td><center>No. of Franchise Outlets<br>Less than 10</center></td>
+                    </tr>
+                </tbody>
+            </table>
+
+             <table class="table table-bordered">
+                <tbody>
+                    <tr>
+                        <td>
+                             <h4>BUSINESS DETAILS</h4>
+            <div class="line1"></div>
+                        <dl>
+                    <dt style="padding: 8px 0px">About Us</dt>
+                    <dd>VRUnreal was established in 2017, offering the first-fully equipped VR gaming center franchise model in India. Unlike the traditional C  </dd>
+                    <dd>gaming parlors and pool halls of the era, VRUnreal has successfully franchised multiple family oriented Virtual reality amusement  </dd>
+                    <dd>facilities. VRUnreal wants to establish a strong foothold in more than 45 locations in India in the coming months. </dd>
+                    <dd>
+                   VRUnreal recognizes itself as the one-stop shop Virtual Reality interactive entertainment destination and a cherished, fun place for bonding for millions worldwide.
+                 </dd>
+
+
+
+
+                        </dl>
+
+                    </td>
+                    </tr>
+                </tbody>
+             </table>
+
+             <!-- EDIT THE TABLE CONTENTS  ACCORDINGLY-->
+             <table class="table table-bordered">
+                <tbody>
+                    <tr>
+                        <td> <h4>Invenstment Datails</h4>
+                             <h4>Commenced operations</h4>
+                             <div class="line1"></div>
+
+                        <table class="table table-hover">
+                            <tbody>
+                                 <tr>
+                                     <td>Operations Commenced on</td>
+                                        <td><b>2017</b></td>
+                                </tr>
+                                <tr>
+                                    <td>Franchise commenced on</td>
+                                       <td><b>2018</b></td>
+                               </tr>
+
+                            </tbody>
+                        </table>
+             <table class="table table-bordered">
+                <tbody>
+                    <tr>
+                        <td>
+                             <h4>FRANCHISE DETAILS</h4>
+                             <div class="line1"></div>
+                             <h5 style="padding: 6px">Units</h5>
+                        <table class="table table-hover">
+                            <tbody>
+                                 <tr>
+                                     <td>Investment</td>
+                                        <td><b>INR 20 lac-30 lac</b></td>
+                                </tr>
+                                <tr>
+                                    <td>Franchise/Brand fee</td>
+                                       <td><b>INR 500000 lac</b></td>
+                               </tr>
+                               <tr>
+                                   <td>Royality/Commission</td>
+                                      <td><b>10%</b></td>
+                              </tr>
+
+                            </tbody>
+                        </table>
+                        <h5 style="padding: 6px">EXPANSION LOCATIONS</h5>
+
+                           <table class="table table-hover">
+                            <tbody>
+                                <tr>
+                                    <td>NORTH</td>
+                                    <td><b>Delhi, Haryana, Himachal Pradesh, Jammu and Kashmir, Punjab, Uttaranchal, Uttar Pradesh</b></td>
+                                </tr>
+                                <tr>
+                                    <td>SOUTH</td>
+                                    <td><b>Kerala, Karnataka, Tamil Nadu, Andhra Pradesh, Telangana</b></td>
+                                </tr>
+                                <tr>
+                                    <td>EAST</td>
+                                    <td><b>Assam, Meghalaya, Mizoram, Tripura, Arunachal Pradesh, Manipur, Nagaland, West Bengal, Sikkim, Odisha</b></td>
+                                </tr>
+                                <tr>
+                                    <td>WEST</td>
+                                    <td><b>Gujarat, Rajasthan, Maharashtra, Goa</b></td>
+                                </tr>
+                                <tr>
+                                    <td>CENTRAL</td>
+                                    <td><b>Chhattisgarh, Madhya Pradesh, Bihar, Jharkhand</b></td>
+                                </tr>
+                                <tr>
+                                    <td>UNION TERRITORIES</td>
+                                    <td><b>Andaman and Nicobar, Pondicherry, Chandigarh, Lakshadweep, Daman and Diu</b></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </td>
+                    </tr>
+                </tbody>
+             </table>
+             <table class="table table-bordered">
+                <tbody>
+                    <tr>
+                        <td>
+                             <h4>Franchise Details</h4>
+                             <div class="line1"></div>
+
+                        <table class="table table-hover">
+                            <tbody>
+                                 <tr>
+                                     <td>Anticipated percentage return on investment</td>
+                                        <td><b>41%</b></td>
+                                </tr>
+                                <tr>
+                                    <td>Likely pay back period of capital for a Unit Franchi</td>
+                                       <td><b>1-2Years</b></td>
+                               </tr>
+                               <tr>
+                                   <td>Other investment requirements</td>
+                                      <td><b>no</b></td>
+                              </tr>
+
+                            </tbody>
+                        </table>
+              <table class="table table-bordered">
+                <tbody>
+                    <tr>
+                        <td>
+                             <h4>Property Details</h4>
+                        <table class="table table-hover">
+                            <tbody>
+                                 <tr>
+                                     <td>Type of property required for this franchise opportunity</td>
+                                        <td><b>Commercial</b></td>
+                                </tr>
+                                <tr>
+                                    <td>Floor area requirement</td>
+                                       <td><b>500-1000 Sq.ft</b></td>
+                               </tr>
+                               <tr>
+                                   <td>Preferred location of unit franchise outlet</td>
+                                      <td><b>Pan India</b></td>
+                              </tr>
+
+
+                            </tbody>
+                        </table>
+                    </td>
+                    </tr>
+                </tbody>
+             </table>
+              <table class="table table-bordered">
+                <tbody>
+                    <tr>
+                        <td>
+                             <h4>Training Details</h4>
+                        <table class="table table-hover">
+                            <tbody>
+                              <tr>
+                                  <td>Detailed operating manuals for franchisees</td>
+                                     <td><b>Yes</b></td>
+                             </tr>
+                                 <tr>
+                                     <td>Franchisee training location</td>
+                                        <td><b>Mumbai office</b></td>
+                                </tr>
+                                <tr>
+                                    <td>Is field assistance available for franchisee ?</td>
+                                    <td><b>Yes</b></td>
+                                </tr>
+                                <tr>
+                                    <td>Expert guidance from Head Office to franchisee in opening the franchise</td>
+                                    <td><b>Yes</b></td>
+                                </tr>
+                                <tr>
+                                    <td>Current IT systems will be included in the franchise</td>
+                                    <td><b>Yes</b></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                    </tr>
+                </tbody>
+             </table>
+           </table>
+            <table class="table table-bordered">
+              <tbody>
+                  <tr>
+                      <td>
+                           <h4>Agreement and Term details</h4>
+                      <table class="table table-hover">
+                          <tbody>
+                               <tr>
+                                   <td>Do you have a standard franchise agreement?</td>
+                                      <td><b>Yes</b></td>
+                              </tr>
+                              <tr>
+                                  <td>How long is the franchise term for?</td>
+                                  <td><b>5 Years</b></td>
+                              </tr>
+                              <tr>
+                                  <td>Is the term renewable?</td>
+                                  <td><b>Yes</b></td>
+                              </tr>
+
+                          </tbody>
+                      </table>
+                  </td>
+                  </tr>
+              </tbody>
+           </table>
+
+        </div>
+
+    </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+    </script>
+</body>
+
+</html>

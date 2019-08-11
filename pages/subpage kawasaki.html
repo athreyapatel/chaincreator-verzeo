@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>KAWASAKI</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+    <link rel="stylesheet"  type="text/css"  href="..\css\home_subpage.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="wrapper">
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>Chaincreator</h3>
+                <strong>CC</strong>
+            </div>
+
+            <ul class="list-unstyled components">
+                <li class="active">
+                    <a href="index.html">
+                        <i class="fas fa-home"></i>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="about.html">
+                        <i class="fas fa-briefcase"></i>
+                        About
+                    </a>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <i class="fas fa-copy"></i>
+                        Pages
+                    </a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                        <li>
+                            <a href="automotive.html">Automotive</a>
+                        </li>
+                        <li>
+                            <a href="beautyhealth.html">Beauty & Health</a>
+                        </li>
+                        <li>
+                            <a href="business_services.html">Business Services</a>
+                        </li>
+                        <li>
+                            <a href="education.html">Education</a>
+                        </li>
+                        <li>
+                            <a href="food.html"> Food & Beverages</a>
+                        </li>
+                        <li>
+                            <a href="hotel.html">Hotel</a>
+                        </li>
+                        <li>
+                            <a href="travel.html">Travel</a>
+                        </li>
+                        <li>
+                            <a href="retail.html">Retail</a>
+                        </li>
+                        <li>
+                            <a href="dealer.html">Dealers & Distributors</a>
+                        </li>
+                        <li>
+                            <a href="fashion.html">Fashion</a>
+                        </li>
+                        <li>
+                            <a href="home.html">Home Based Business</a>
+                        </li>
+                        <li>
+                            <a href="industry.html">Industrial Machinery & Manufacturing </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="./../question.html">
+                        <i class="fas fa-question"></i>
+                        FAQ
+                    </a>
+                </li>
+                <li>
+                    <a href="./../contact.html">
+                        <i class="fas fa-paper-plane"></i>
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <!-- Page Content  -->
+        <div  class="container" id="content">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="btn btn-info">
+                        <i class="fas fa-align-left"></i>
+                    </button>
+                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+                </div>
+            </nav>
+
+
+            <h2>KAWASAKI</h2>  <!-- ADD FRANCHISE NAME -->
+            <div class="line1"></div>
+            <div id="cara" class="carousel slide" style="padding-top: 20px " data-ride="carousel">
+                <ul class="carousel-indicators">
+                    <li data-target="#cara" data-slide-to="0" class="active"></li>
+                    <li data-target="#cara" data-slide-to="1"></li>
+                    <li data-target="#cara" data-slide-to="2"></li>
+                </ul>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="data:image/png;base64,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" alt="IMAGE" width="1100" height="500">
+                    </div>
+              
+            <a class="carousel-control-prev" href="#cara" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#cara" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+            </div>
+
+            <!-- EDIT TABLE AS NEEDED -->
+
+            <table class="table table-bordered">
+                <tbody>
+                    <tr>
+                        <td><center>Area Req<br>1500 sq.ft</center></td>
+                        <td><center>Investment Range<br>INR 10 Lac - 20 Lac</center></td>
+                        <td><center>No. of Franchise Outlets<br>NO Outlets</center></td>
+                    </tr>
+                </tbody>
+            </table>
+
+             <table class="table table-bordered">
+                <tbody>
+                    <tr>
+                        <td>
+                             <h4>BUSINESS DETAILS</h4>
+            <div class="line1"></div>
+                        <dl>
+                    <dt style="padding: 8px 0px">About Us</dt>
+                    <dd>Kawasaki Sports is one of the world’s leading sports brands, offering high-quality Badminton gear for Amateur as well as  </dd>
+                    <dd>professional sportspersons. To capitalize the growing sports market and promote badminton on a massive scale, Kawasaki Sports </dd>
+                    <dd>has entered the Indian Subcontinent in partnership with its official distributor Chennai- based New Vision Distributors Private Limited. </dd>
+                    <dd>early development skills such as learning colors and numbers, mathematics, counting and social development.</dd>
+                    <ul>
+                      <li>  Badminton Rackets</li>
+                      <li>Shuttlecocks</li>
+                      <li>Sports Shoes</li>
+                      <li>Sportswear</li>
+                      <li>Racket Bags</li>
+                    </ul>
+
+                        </dl>
+
+                    </td>
+                    </tr>
+                </tbody>
+             </table>
+
+             <!-- EDIT THE TABLE CONTENTS  ACCORDINGLY-->
+             <table class="table table-bordered">
+                <tbody>
+                    <tr>
+                        <td>
+                              <h4>Invenstment Datails</h4>
+                             <h4>Commenced operations</h4>
+                             <div class="line1"></div>
+
+                        <table class="table table-hover">
+                            <tbody>
+                                 <tr>
+                                     <td>Operations Commenced on</td>
+                                        <td><b>2017</b></td>
+                                </tr>
+                                <tr>
+                                    <td>Franchise commenced on</td>
+                                       <td><b>2017</b></td>
+                               </tr>
+
+                            </tbody>
+                        </table>
+             <table class="table table-bordered">
+                <tbody>
+                    <tr>
+                        <td>
+                             <h4>FRANCHISE DETAILS</h4>
+                             <div class="line1"></div>
+                             <h5 style="padding: 6px">Units</h5>
+                        <table class="table table-hover">
+                            <tbody>
+                                 <tr>
+                                     <td>Investment</td>
+                                        <td><b>INR 10lac-20lac</b></td>
+                                </tr>
+                                <tr>
+                                    <td>Franchise/Brand fee</td>
+                                       <td><b>INR 300000lac</b></td>
+                               </tr>
+
+                            </tbody>
+                        </table>
+                        <h5 style="padding: 6px">EXPANSION LOCATIONS</h5>
+
+                           <table class="table table-hover">
+                            <tbody>
+                                <tr>
+                                    <td>NORTH</td>
+                                    <td><b>Delhi, Haryana, Himachal Pradesh, Jammu and Kashmir, Punjab, Uttaranchal, Uttar Pradesh</b></td>
+                                </tr>
+                                <tr>
+                                    <td>SOUTH</td>
+                                    <td><b>Kerala, Karnataka, Tamil Nadu, Andhra Pradesh, Telangana</b></td>
+                                </tr>
+                                <tr>
+                                    <td>EAST</td>
+                                    <td><b>Assam, Meghalaya, Mizoram, Tripura, Arunachal Pradesh, Manipur, Nagaland, West Bengal, Sikkim, Odisha</b></td>
+                                </tr>
+                                <tr>
+                                    <td>WEST</td>
+                                    <td><b>Gujarat, Rajasthan, Maharashtra, Goa</b></td>
+                                </tr>
+                                <tr>
+                                    <td>CENTRAL</td>
+                                    <td><b>Chhattisgarh, Madhya Pradesh, Bihar, Jharkhand</b></td>
+                                </tr>
+                                <tr>
+                                    <td>UNION TERRITORIES</td>
+                                    <td><b>Andaman and Nicobar, Pondicherry, Chandigarh, Lakshadweep, Daman and Diu</b></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </td>
+                    </tr>
+                </tbody>
+             </table>
+             <table class="table table-bordered">
+                <tbody>
+                    <tr>
+                        <td>
+                             <h4>Franchise Details</h4>
+                             <div class="line1"></div>
+
+                        <table class="table table-hover">
+                            <tbody>
+                                 <tr>
+                                     <td>Anticipated percentage return on investment</td>
+                                        <td><b>15%</b></td>
+                                </tr>
+                                <tr>
+                                    <td>Likely pay back period of capital for a Unit Franchi</td>
+                                       <td><b>2-2Years</b></td>
+                               </tr>
+
+                            </tbody>
+                        </table>
+              <table class="table table-bordered">
+                <tbody>
+                    <tr>
+                        <td>
+                             <h4>Property Details</h4>
+                        <table class="table table-hover">
+                            <tbody>
+                                 <tr>
+                                     <td>Type of property required for this franchise opportunity</td>
+                                        <td><b>Commercial</b></td>
+                                </tr>
+                                <tr>
+                                    <td>Floor area requirement</td>
+                                       <td><b>1500 Sq.ft</b></td>
+                               </tr>
+                               <tr>
+                                   <td>Preferred location of unit franchise outlet</td>
+                                      <td><b>Commercial</b></td>
+                              </tr>
+
+
+                            </tbody>
+                        </table>
+                    </td>
+                    </tr>
+                </tbody>
+             </table>
+              <table class="table table-bordered">
+                <tbody>
+                    <tr>
+                        <td>
+                             <h4>Training Details</h4>
+                        <table class="table table-hover">
+                            <tbody>
+                                 <tr>
+                                     <td>Franchisee training location</td>
+                                        <td><b>Chennai</b></td>
+                                </tr>
+                                <tr>
+                                    <td>Is field assistance available for franchisee ?</td>
+                                    <td><b>Yes</b></td>
+                                </tr>
+                                <tr>
+                                    <td>Expert guidance from Head Office to franchisee in opening the franchise</td>
+                                    <td><b>Yes</b></td>
+                                </tr>
+                                <tr>
+                                    <td>Current IT systems will be included in the franchise</td>
+                                    <td><b>Yes</b></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                    </tr>
+                </tbody>
+             </table>
+           </table>
+            <table class="table table-bordered">
+              <tbody>
+                  <tr>
+                      <td>
+                           <h4>Agreement and Term details</h4>
+                      <table class="table table-hover">
+                          <tbody>
+                               <tr>
+                                   <td>Do you have a standard franchise agreement?</td>
+                                      <td><b>Yes</b></td>
+                              </tr>
+                              <tr>
+                                  <td>How long is the franchise term for?</td>
+                                  <td><b>5-No of Years</b></td>
+                              </tr>
+                              <tr>
+                                  <td>Is the term renewable?</td>
+                                  <td><b>Yes</b></td>
+                              </tr>
+
+                          </tbody>
+                      </table>
+                  </td>
+                  </tr>
+              </tbody>
+           </table>
+
+        </div>
+
+    </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+    </script>
+</body>
+
+</html>
