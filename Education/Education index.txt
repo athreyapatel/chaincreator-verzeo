@@ -1,0 +1,263 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>EDUCATION</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href=".\css\home_style.css">
+</head>
+
+<body style="background-color: #302E2F">
+<center>  
+        <img src="logo.jpg" >
+</center>
+                   
+     <style> 
+     .ani {
+       background-color: rgb(255, 255, 255);
+       color: #111;
+       margin: 20px;
+       padding: 20px;
+       border: 5px solid #d5b069;
+     }
+
+     #footer {
+    background-color:#302E2F;
+    color:#d5b069;
+    clear:both;
+    text-align:center;
+   padding:5px;    
+}
+     
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px){
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+     </style>
+     <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)"
+        class="closebtn"
+        onclick="closeNav()">&times;</a>
+      
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Career</a>
+        <a href="#">Contact</a>
+      
+      </div>
+      <span style="font-size:30px; color:#d5b069;  cursor:
+pointer"onclick="openNav()">? MENU
+</span>
+
+<script>
+
+/* Set the width of the side navigation to
+250px */ 
+
+function openNav() {
+ document.getElementById("mySidenav")
+ .style.width="300px";
+}
+
+function closeNav() {
+ document.getElementById("mySidenav")
+ .style.width = "0";
+}
+
+</script>
+ <h5 style="color: #d5b069; text-align: center;font-size: 30px;  padding-right: 8px;border: 1px solid; opacity: 0.7; "><b>EDUCATION SERVICES</b></h5></div>
+</div>
+                        <div class="ani">
+                            <a target="_blank" href="file:///C:\Users\Vignesh\Desktop\Education\ESU10.html">     
+                              <img src="logo1.png" alt="c1" width="200" height="150">
+                            </a>
+                                                             
+                             <h2 style="color: rgb(0, 0, 0); ;font-size: 29px;">
+                            </h2>
+                            <p>
+                             In 1965, the Nebraska Legislature created the Educational Service Unit system to provide supplemental services to school districts. ESUs are service-oriented, non-regulatory agencies designed to achieve a better balance of educational opportunities for students regardless of the population, financial differences, or geographic limitations of school districts.
+
+The governing unit consists of an elected board of 9 members. Members are elected for four-year terms from nine distinct election districts. Meetings are conducted at 7:00 p.m. on the third Monday of each month.
+
+Educational Service Unit 10 utilizes an advisory committee structure for the purpose of receiving feedback and developing recommendations for services that are provided to schools. Local school administrators and county superintendents are elected by their peers to serve on the Administrator Advisory Committee, which meets at least four times during the year. The recommendations of the committee are considered by the school districts in the ESU 10 area. Once two-thirds of the school districts that contain at least one-half of the student population approve the administrator advisory committee recommendations, the Board of Directors makes the final decisions concerning the program of services for the unit.</p>
+
+Educational Service Unit 10 employs 93 staff members who provide services to students in the counties of Blaine, Buffalo, Custer, Dawson, Garfield, Greeley, Hall, Howard, Loup, Sherman, and Valley.  Included in these counties are 34 K-12 districts, 4 residential schools and 11 parochial schools.  The area served covers approximately 9,325 square miles and includes an estimated 29,600 students in grades K-12.
+
+<p>Website
+http://www.esu10.org</p>
+
+<p>Headquarters
+Year Founded
+1965</p>
+</div>
+		<div class="ani">
+                            <a target="_blank" href="file:///C:\Users\Vignesh\Desktop\Education\GAPS.html">
+                              <img src="logo2.gif" alt="c1" width="200" height="150">
+                            </a>
+                            <h2 style="color: rgb(0, 0, 0); ;font-size: 29px;">
+                            </h2>
+                            <p>
+                             Global Academy Public School stands out as a master piece architecture exhibiting a blend of modern & traditional style. The landscaping blends with the natural surrounding. We believe that every child is unique and is gifted with a holistic approach. Therefore, we nurture the same in every child according to his/her capabilities.
+
+Following the Academic and Non-Academic blocks, we provide activity based experience and leisure pursuits for the children in their spare time.
+
+Nature play promoting with well planned sand pond and waterpool.
+Reading time for all pre-school children in kid's mini library.
+Skating, self defence trainig, music and dance room, activity room and mini theater, yoga.
+Teachers Training (ECCE) Crash course is complusory for joining as a LDT in our school. This training is provided by school under a well planned discipline of psychology in early childhood Education.
+Play zone has been planned for sports suggested by expert team of Physical Education.</p>
+
+
+                            </div>
+<div class="ani">
+                            <a target="_blank" href="file:///C:\Users\Vignesh\Desktop\Education\TOPPR.html">
+                              <img src="logo3.png" alt="c1" width="200" height="150">
+                            </a>
+                            <h2 style="color: rgb(0, 0, 0); ;font-size: 29px;">
+                            </h2>
+                            <p>
+                           Launched in 2013, Toppr, developed by Toppr Technologies Pvt Ltd, caters to the students preparing for various exams, Olympiads and scholarship tests as well as engineering and medical college entrance exams, including CBSE, ICSE, state boards along with JEE, NEET and other competitive exams.
+
+Overall, Toppr caters to the students all education boards in India, enabling them to study for all subjects for all kinds of exams. The students can choose from either Basic, Master, Advanced or Ultimate package.</p>
+
+
+                            </div>
+
+<div class="ani">
+                            <a target="_blank" href="file:///C:\Users\Vignesh\Desktop\Education\KUMON.html">
+                              <img src="logo4.gif" alt="c1" width="200" height="150">
+                            </a>
+                            <h2 style="color: rgb(0, 0, 0); ;font-size: 29px;">
+                            </h2>
+                            <p>
+                          Kumon is the world’s leading after-school enrichment programme. Founded in 1954 in Japan, the Kumon Method was born out of a father’s love for his son. As one of the most well-established franchises in the world, with more than 24,700 Centres, Kumon serves more than 4 million children across 50 countries and regions. Right at this moment, someone, somewhere around the world is learning with Kumon.
+
+As we continue to expand globally, we are seeking like-minded individuals who can play an important role in shaping the next generation within India.
+
+Proven Franchise Business Model:
+As a franchisee, you get to run your own business using a proven business model developed over the past 50 years. Coupled with decades of experience, the Kumon materials provided are constantly improved to enhance the learning and growth of students.
+
+Franchise Support:
+
+Run a profitable franchise with our help. As a franchisee, you will receive extensive training and support so that you can help students of all ages discover and achieve their potential.</p>
+</div>
+<div class="ani">
+                            <a target="_blank" href="file:///C:\Users\Vignesh\Desktop\Education\SUNDAY.html">
+                              <img src="logo5.gif" alt="c1" width="200" height="150">
+                            </a>
+                            <h2 style="color: rgb(0, 0, 0); ;font-size: 29px;">
+                            </h2>
+                            <p>The Sunday Science School is a registered institute for advancing the concept of learning by Doing. In a more apt way, it is an institute that facilitates Experiential learning, mainly for young brains! SSS is launched by people who are active in the field of Science Activities for students for more than 20 years.
+
+In 2008, SSS programme was launched at Ahmednagar, Maharashtra. On successful completion of 3 years, the programme was replicated at more than 75 locations in Maharashtra , Karnataka, Kerala, Tamilnadu, Andhra Pradesh, Goa, Madhya Pradesh, Gujrat, Rajsthan, Uttar Pradesh and Delhi NCR. Based on the rich experience of science activities and manufacturing and designing of science kits for over 20 years.
+
+SSS has developed a Hands-on science syllabus which is mapped with CBSE curriculum.
+
+ With strong conviction that Doing science is not just beneficial, but absolute necessary to know science in its spirits. 
+
+ SSS believes showing science experiments by teachers or using modern tools like virtual labs and e-learning software is not adequate to develop habit of experimentation or gain confidence of doing things by hands. 
+
+ The goal of SSS’s new education system should be to create entrepreneurs, innovators, artists, scientists and thinkers who can establish the foundation of a knowledge based economy.
+
+ Sunday Science School has focused its efforts on school children ,if groomed at proper age, children will become an asset to the nation. 
+
+ SSS emphasizes on experiential science learning. This develops many qualities in children like curiosity, observation skills, analytical approach, problem solving skills, scientific temperament, creativity, patience etc.  </p>
+</div>
+<div class="ani">
+                            <a target="_blank" href="file:///C:\Users\Vignesh\Desktop\Education\FRAMEWORK.html">
+                              <img src="logo6.gif" alt="c1" width="200" height="150">
+                            </a>
+                            <h2 style="color: rgb(0, 0, 0); ;font-size: 29px;">
+                            </h2>
+                            <p>Frameboxx Animation & Visual Effects offers skill-based curricula to help students specialize their careers in Animation, VFX (Visual Effects), Game asset Design, Graphic Design, Web Design & Development, Multimedia, Broadcast design, Film Making and other related creative and technical sectors. Our skill-based training comprises of degree and specialized certificate courses that enhance professional competence and provides distinguished learning. Our course curriculum is the perfect mix of theory and practical sessions to learn the aesthetic values with real life problem solving techniques. Innovation and a team of experienced and passionate instructors is the core strength of our training studio. We regularly conduct Master class sessions through industry evangelists.
+
+ Our governing council comprised of technical experts and experienced trainers, headed by Mr. Rajesh R. Turakhia. Having experience of over 20 years in Animation and Visual Effects industry, he has created two of the leading brands in this field. Under his mentorship, his institutes have given over 50,000 artists to the Animation and VFX industry. 
+
+ Collaborations with internationally acclaimed technologists and various animation and VFX studios for internships helped us gain a breakthrough in the job market. Mr. Steve Wright helped us in this journey by witting international quality course curriculum for us. Eminent filmmaker Mr. Kireet Khurana joined Frameboxx as the creative head.
+
+ Frameboxx is the only national institute that is owned and run by Industry professionals.
+
+We are India’s first multi location brand to have Unity Authorized Training Partner. Our head office is awarded as ‘Certre of Excellence’ by MESC (Media & Entertainment Skills Council).</p>
+</div>
+<div class="ani">
+                            <a target="_blank" href="file:///C:\Users\Vignesh\Desktop\Education\STUDY.html">
+                              <img src="logo7.gif" alt="c1" width="200" height="150">
+                            </a>
+                            <h2 style="color: rgb(0, 0, 0); ;font-size: 29px;">
+                            </h2>
+                            <p>Study Adda provides a unique interactive educational platform supported by an interactive web portal for all 
+
+study material keeping abreast with the latest educational trends ? It is a web portal where students can find all types of solutions to their various, complicated educational 
+
+queries ? Study materials range from grade 1st to 12th, Engineering and Medical examination papers, UPSC, Railways </p>
+</div>
+<div class="ani">
+                            <a target="_blank" href="file:///C:\Users\Vignesh\Desktop\Education\ALS.html">
+                              <img src="logo8.png" alt="c1" width="200" height="150">
+                            </a>
+                            <h2 style="color: rgb(0, 0, 0); ;font-size: 29px;">
+                            </h2>
+                            <p>ALS Satellite Education Pvt Ltd - is a venture started by ALS and its Founder Directors who have a joint teaching experience of more than 40 years having taught almost 50000 students. Our aim is to reach out to Civil Services aspirants across the country with the help of cutting edge technology and provide them with India's Best IAS Faculty in the comfort of their Hometown. Our unique pedagogy combined with personalized learning, best teachers, high quality study material and world class infrastructure helps ensure higher degree of success for Civil Services Aspirants. ALS Satellite Education Pvt. Ltd. aims to impart new values and skills to those who have potential and are willing to face challenges of the new millennium as bureaucrats.
+
+ALS is one of India's leading learning institutions and was established with an aim to develop as the final destination for all career initiation programmes. ALS' unflinching reputation has been built, in large part, by its uncompromising standards and focus on the intellectual and personal development of the individual learner. We want people who question, challenge and think creatively, and those who are prepared to take on new concepts and ideas.
+</p>
+</div>
+<div class="ani">
+                            <a target="_blank" href="file:///C:\Users\Vignesh\Desktop\Education\BRAINWONDERS.html">
+                              <img src="logo9.png" alt="c1" width="200" height="150">
+                            </a>
+                            <h2 style="color: rgb(0, 0, 0); ;font-size: 29px;">
+                            </h2>
+                            <p>BrainWonders brings a promising Dermatoglyphics Multiple Intelligence Test franchise model for you!
+BrainWonders  was established in 2011 with the help of latest technology and under the concept of Dermatoglyphic theory which helped in transforming the concept of educational counselling
+
+DMIT assessment: Dermatoglyphics Multiple Intelligence Test is done for children & individuals of different age groups, revealing their innate qualities by analyzing their 10 fingerprints. The assessment is backed up the science of "Dermatoglyphics", a 200yr old science, which is well researched and globally accepted.
+</p>
+</div>
+
+ </body>
+</html>
+                       
