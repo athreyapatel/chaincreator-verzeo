@@ -1,0 +1,305 @@
+
+<!DOCTYPE html>
+<html>
+        <head>
+                <meta charset="utf-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            
+                <title>ALS</title>
+            
+                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+            
+                <link rel="stylesheet" href="./css/home_ALS_style.css">
+                <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+                <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+        <center><img src="logo8.png" alt="c1" width="200" height="150"></center>
+       
+        <h6 style="color: #1a0ba0; text-align: center;font-size: 50px;  padding-right: 20px;border: 3px solid rgb(59, 59, 59); opacity: 0.9; "><b>ALS</b></h6></div>
+       <!-- <div id="cara" class="carousel slide" style="padding-top: 20px " data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#cara" data-slide-to="0" class="active"></li>
+                <li data-target="#cara" data-slide-to="1"></li>
+                <li data-target="#cara" data-slide-to="2"></li>
+            </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="46c896addcbde3b39245f2bc74c0f1cb.jpg" width="1100" height="500">
+                </div>
+            <div class="carousel-item">
+                <img src="b68b8abb1c7eed38ad9a68af6eef1cd8.jpg" width="1100" height="500">
+            </div>
+            <div class="carousel-item">
+                <img src="0c41be571b50fe6ca0f6d852713bb741.jpg"  width="1100" height="500">   
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#cara" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#cara" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+</div> -->
+
+
+<head>
+<style>
+
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+
+button.accordion.active,
+button.accordion:hover {
+
+    background-color: #ddd;
+}
+
+
+button.accordion:after {
+
+/* Unicode character for "plus" sign
+(+) is '\02795' */ 
+
+    content: '\02795';
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+
+button.accordion.active:after {
+
+/* Unicode character for "minus" sign
+(-) is '\2796' */ 
+
+    content: "\2796";
+}
+
+
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+}
+
+div.panel.show {
+    opacity: 1;
+    max-height: 500px;
+}
+
+</style>
+ 
+</head>
+<body>
+
+<h2>About Us</h2>
+
+<p>ALS Satellite Education Pvt Ltd - is a venture started by ALS and its Founder Directors who have a joint teaching experience of more than 40 years having taught almost 50000 students. Our aim is to reach out to Civil Services aspirants across the country with the help of cutting edge technology and provide them with India's Best IAS Faculty in the comfort of their Hometown. Our unique pedagogy combined with personalized learning, best teachers, high quality study material and world class infrastructure helps ensure higher degree of success for Civil Services Aspirants. ALS Satellite Education Pvt. Ltd. aims to impart new values and skills to those who have potential and are willing to face challenges of the new millennium as bureaucrats.
+
+ALS is one of India's leading learning institutions and was established with an aim to develop as the final destination for all career initiation programmes. ALS' unflinching reputation has been built, in large part, by its uncompromising standards and focus on the intellectual and personal development of the individual learner. We want people who question, challenge and think creatively, and those who are prepared to take on new concepts and ideas.
+</p>
+<button class="accordion">BUSSINESS DETAILS</button>
+
+
+<div class="panel">
+        
+        <dl>
+                <dt style="padding: 8px 0px"><h2><b>Why ALS </b></h2></dt>
+                <dd>Why With Us<br>
+<br>We want people who question, challenge and think creatively, and those who are prepared to take on new concepts and ideas.<br>
+
+
+ </dd>
+ </dl>
+
+<p></p>
+
+</div>
+
+<button class="accordion">INVESTMENT DETAILS</button>
+<div class="panel">
+        <table class="table table-hover">
+                <tbody>                                
+                     <tr>
+                         <td>Investment</td>
+                            <td><b>INR 7lac-8lac</b></td>
+                    </tr>
+                    <tr>
+                        <td>Franchise/Brand Fee</td>
+                        <td><b>INR 15000</b></td>
+                    </tr>
+                    <tr>
+                        <td>Royalty/Commission</td>
+                        <td><b>55%</b></td>
+                    </tr>
+                    <tr>
+                        <td>Other investment requirements</td>
+                        <td><b>No</b></td>
+                    </tr>
+                </tbody>
+            </table>
+
+<p></p>
+
+</div>
+
+<button class="accordion">PROPERTY DETAILS
+</button>
+<div class="panel">
+        <table class="table table-hover">
+                <tbody>
+                     <tr>
+                         <td>Type of property required for this franchise opportunity</td>
+                            <td><b>Commercial</b></td>
+                    </tr>
+                    <tr>
+                        <td>Floor area requirement</td>
+                        <td><b>800-5000Sq.ft</b></td>
+                    </tr>
+                    <tr>
+                        <td>Preferred location of unit franchise outlet</td>
+                        <td><b>near motels,social places,schools,colleges</b></td>
+                    </tr>
+                </tbody>
+            </table>
+
+<p></p>
+
+</div>
+
+<button class="accordion">AGREEMENT & TERM DETAILS
+    </button>
+    <div class="panel">
+            <table class="table table-hover">
+                    <tbody>
+                         <tr>
+                             <td>Do you have agrrement of this franchise</td>
+                                <td><b>Yes</b></td>
+                        </tr>
+                        <tr>
+                            <td>The term of agreement</td>
+                            <td><b>3years</b></td>
+                        </tr>
+                        <tr>
+                            <td>is agreement renewable</td>
+                            <td><b>yes</b></td>
+                        </tr>
+                        <tr>
+                            <td>Other investment requirements</td>
+                            <td><b>No</b></td>
+                        </tr>
+                    </tbody>
+                </table>
+    
+    <p></p>
+<button class="accordion">TRAINING
+    </button>
+    <div class="panel">
+            <table class="table table-hover">
+                    <tbody>
+                         <tr>
+                             <td>Deatailed operating manuals for franchises</td>
+                                <td><b>Yes</b></td>
+                        </tr>
+                        <tr>
+                            <td>training location</td>
+                            <td><b>manglore</b></td>
+                        </tr>
+                        <tr>
+                            <td>is field assistance provided</td>
+                            <td><b>yes</b></td>
+                        </tr>
+                        <tr>
+                            <td>Current IT companies included yes</td>
+                            <td><b>yes</b></td>
+                        </tr>
+                    </tbody>
+                </table>
+    
+    <p></p>
+    
+    </div>
+
+</body>
+        
+
+<head>
+
+<style>
+      #footer {
+    background-color:rgb(255, 255, 255);
+    color:#000000;
+    clear:both;
+    text-align:center;
+   padding:5px;    
+}
+
+div.img {
+    margin: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 200px;
+    height : 180px;
+} 
+
+div.img:hover {
+    border: 3px solid steelblue;
+}
+
+div.img img {
+    width: 100%;
+    height: 100px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+</style>
+
+</head>
+
+    
+
+
+
+<script>
+   
+
+        var acc = document
+        .getElementsByClassName("accordion");
+        
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+         acc[i].onclick = function(){
+          this.classList.toggle("active");
+          this.nextElementSibling.classList
+          .toggle("show");
+          }
+        }
+        
+        </script>
+        
+</body>
+<div id="footer">
+    ALS&copy;  2010
+        </div>
+</html>
+
