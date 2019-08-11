@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Chaincreator</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+    <link rel="stylesheet"  type="text/css"  href="..\css\home_subpage.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="wrapper">
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>Chaincreator</h3>
+                <strong>CC</strong>
+            </div>
+
+            <ul class="list-unstyled components">
+                <li class="active">
+                    <a href="index.html">
+                        <i class="fas fa-home"></i>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="about.html">
+                        <i class="fas fa-briefcase"></i>
+                        About
+                    </a>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <i class="fas fa-copy"></i>
+                        Pages
+                    </a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                        <li>
+                            <a href="automotive.html">Automotive</a>
+                        </li>
+                        <li>
+                            <a href="beautyhealth.html">Beauty & Health</a>
+                        </li>
+                        <li>
+                            <a href="business_services.html">Business Services</a>
+                        </li>
+                        <li>
+                            <a href="education.html">Education</a>
+                        </li>
+                        <li>
+                            <a href="food.html"> Food & Beverages</a>
+                        </li>
+                        <li>
+                            <a href="hotel.html">Hotel</a>
+                        </li>
+                        <li>
+                            <a href="travel.html">Travel</a>
+                        </li>
+                        <li>
+                            <a href="../retail.html">Retail</a>
+                        </li>                        
+                        <li>
+                            <a href="dealer.html">Dealers & Distributors</a>
+                        </li>
+                        <li>
+                            <a href="fashion.html">Fashion</a>
+                        </li>
+                        <li>
+                            <a href="home.html">Home Based Business</a>
+                        </li>                        
+                        <li>
+                            <a href="industry.html">Industrial Machinery & Manufacturing </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="./../question.html">
+                        <i class="fas fa-question"></i>
+                        FAQ
+                    </a>
+                </li>
+                <li>
+                    <a href="./../contact.html">
+                        <i class="fas fa-paper-plane"></i>
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <!-- Page Content  -->
+        <div  class="container" id="content">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="btn btn-info">
+                        <i class="fas fa-align-left"></i>
+                    </button>
+                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+                </div>
+            </nav>
+
+
+            <h2>EXOTIC DECOR PRIVATE LIMITED</h2>
+            <h4>Furniture/Home Decor & Furnishing</h4>  <!-- ADD FRANCHISE NAME -->
+            <div class="line1"></div>
+            <div id="cara" class="carousel slide" style="padding-top: 20px " data-ride="carousel">
+                <ul class="carousel-indicators">
+                    <li data-target="#cara" data-slide-to="0" class="active"></li>
+                    <li data-target="#cara" data-slide-to="1"></li>
+                    <li data-target="#cara" data-slide-to="2"></li>
+                </ul>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="data:image/jpeg;base64,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" alt="IMAGE" width="1100" height="500">
+                    </div>
+                <div class="carousel-item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmmVw_KFE8Ez4cwhGhjKQgun50tQ9Wy9aB7ojqckAQwTAgigRJ" alt="IMAGE"width="1100" height="500">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6Ve90g0YgTujfK8UocFGbsp9QqjChrkpqoLQK6-JcQkwjT9Zx" alt="IMAGE"  width="1100" height="500">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#cara" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#cara" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+            </div>
+
+
+            <!-- EDIT TABLE AS NEEDED -->
+            
+            <table class="table table-bordered">
+                <tbody>
+                    <tr>
+                        <td><center>Area Req<br>300 sq.ft+</center></td>
+                        <td><center>Investment Size<br>INR 5 Lac - 10 Lac</center></td>
+                        <td><center>No of dealers/distibutors<br>3</center></td>
+                    </tr>
+                </tbody>
+            </table>
+
+             <table class="table table-bordered">
+                <tbody>
+                    <tr>
+                        <td>
+                             <h4>Business Details</h4>
+            <div class="line1"></div>
+                        <dl>
+                    <dt style="padding: 8px 0px">About Us</dt>
+                    <dd><p>NOTION -  is inviting franchisees to join hands and earn high profits to be a successful entrepreneur...Read On!</p>
+                       <p>NOTION- luxury flooring concept, is the INDIA’S leading brand with clear focus on quality and durable product. It is known for its premium quality and customized solutions for Interior and Exterior Wood Flooring Concepts. NOTION – the flagship brand of NOIDA based EXOTIC DÉCOR PVT. LTD. was established in 2002. After running the successful show for almost 10 years, EDPL launched a premium brand “NOTION”–Luxury Flooring Concepts. </p>
+                        
+                       <p> Today the flooring has become such a popular product, that it is widely been used in residences, housing projects, Hotels, Retail showrooms, Office complexes and much more. Now to be the premium brand, EDPL has introduced wide range of products varying from mid to high end concepts for all flooring needs, whether it be interiors or exteriors.</p>
+                        
+                       <p>Today the market for wood flooring products is growing at a pace of 30-35% per year.</p>
+                        
+                        <p>The brand set to grow high with expansion across INDIA. NOTION is looking for potential master franchise partners in all major states of India and franchisee stores in all tiers 1 & 2 cities in Pan India. NOTION aims to have at least 100 stores in India.</p>
+                        
+                       <p> Products:
+                        <ul>
+                           <li>Laminate Flooring</li> 
+                            <li>Engineered Wood Flooring</li>
+                            <li>Outdoor Decking</li>
+                            <li>Wooden Facades</li>
+                            <li>Decking Tile</li>
+                            <li>Accessories</li>
+                        </ul>
+                      </p>
+                      <p>
+                        Brand Success Mantra:
+                        <ul>
+                        <li>To offer unique, high quality and durable products to customers and provide them value for money in right manner.</li>
+                       <li> The brand set to grow high with expansion across INDIA.</li>
+                        </ul>
+                    </p>
+                        </dl>
+
+                    </td>
+                    </tr>
+                </tbody>
+             </table>
+
+             <!-- EDIT THE TABLE CONTENTS  ACCORDINGLY-->
+
+             <table class="table table-bordered">
+                <tbody>
+                    <tr>
+                        <td>
+                             <h4>Distribution Details</h4>
+                             <div class="line1"></div>
+                             <h5 style="padding: 6px">Units</h5>
+                             <table class="table table-hover">
+                                <tbody>
+                                     <tr>
+                                         <td>Investment</td>
+                                            <td><b>INR 5lac - 10 lac</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Franchise/Brand Fee</td>
+                                        <td><b>INR 350/sq. ft</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Royalty/Commission</td>
+                                        <td><b>1%</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Other investment requirements</td>
+                                        <td><b>No</b></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        <dt style="padding: 8px 8px">Trade partners</dt>
+                           <table class="table table-hover">
+                            <tbody>
+                                <tr>
+                                    <td>Types of channels</td>
+                                    <td><b>Dealer</b></td>
+                                </tr>
+                                <tr>
+                                    <td>Investment(if any)</td>
+                                    <td><b>INR 50k to 2 lac/b></td>
+                                </tr>
+                                <tr>
+                                    <td>Margin/Commission</td>
+                                    <td><b>20-25%</b></td>
+                                </tr>
+                                <tr>
+                                    <td>Area requirement</td>
+                                    <td><b>200 sq.ft</b></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                    </tr>
+                </tbody>
+             </table>
+             <table class="table table-bordered">
+                <tbody>
+                    <tr>
+                        <td>
+                             <h4>Expansion locations</h4>
+                        <table class="table table-hover">
+                            <tbody>
+                                 <tr>
+                                     <td>North</td>
+                                        <td><b>Delhi, Haryana, Himachal Pradesh, Jammu and Kashmir, Punjab, Uttaranchal, Uttar Pradesh</b></td>
+                                </tr>
+                                <tr>
+                                    <td>South</td>
+                                    <td><b>Kerala, Karnataka, Tamil Nadu, Andhra Pradesh</b></td>
+                                </tr>
+                                <tr>
+                                    <td>East</td>
+                                    <td><b>Assam, Meghalaya, Mizoram, Tripura, Arunachal Pradesh, Manipur, Nagaland, West Bengal, Sikkim</b></td>
+                                </tr>
+                                <tr>
+                                    <td>West</td>
+                                    <td><b>Gujarat, Rajasthan, Maharashtra, Goa
+
+                                    </b></td>
+                                </tr>
+                                <tr>
+                                    <td>Central</td>
+                                    <td><b>Chhattisgarh, Madhya Pradesh, Bihar, Jharkhand
+
+                                    </b></td>
+                                </tr>
+                                <tr>
+                                    <td>Union territories</td>
+                                    <td><b>Pondicherry, Chandigarh, Lakshadweep, Daman and Diu
+
+                                    </b></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                    </tr>
+                </tbody>
+             </table>
+              <table class="table table-bordered">
+                <tbody>
+                    <tr>
+                        <td>
+                             <h4>Property Details</h4>
+                        <table class="table table-hover">
+                            <tbody>
+                                 <tr>
+                                     <td>Type of property required for this franchise opportunity</td>
+                                        <td><b>Commercial</b></td>
+                                </tr>
+                                <tr>
+                                    <td>Floor area requirement</td>
+                                    <td><b>300 Sq.ft +</b></td>
+                                </tr>
+                                <tr>
+                                    <td>Preferred location of unit franchise outlet</td>
+                                    <td><b>Main markets, malls</b></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                    </tr>
+                </tbody>
+             </table>
+             <table class="table table-bordered">
+                <tbody>
+                    <tr>
+                        <td>
+                             <h4>Training Details</h4>
+                        <table class="table table-hover">
+                            <tbody>
+                                 <tr>
+                                     <td>Detailed operation for dealership</td>
+                                        <td><b>Yes</b></td>
+                                </tr>
+                                <tr>
+                                    <td>Dealership training location</td>
+                                    <td><b>Noida or specific state</b></td>
+                                </tr>
+                                <tr>
+                                    <td>Is the field assistance available for dealership?</td>
+                                    <td><b>Yes</b></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                    </tr>
+                </tbody>
+             </table>
+              <table class="table table-bordered">
+                <tbody>
+                    <tr>
+                        <td>
+                             <h4>Agreement & term Details</h4>
+                        <table class="table table-hover">
+                            <tbody>
+                                 <tr>
+                                     <td>Do you have a standard franchise agreement?</td>
+                                        <td><b>Yes</b></td>
+                                </tr>
+                                <tr>
+                                    <td>How long is this franchise term for?</td>
+                                    <td><b>1 year</b></td>
+                                </tr>
+                                <tr>
+                                    <td>Is the term renewable?</td>
+                                    <td><b>Yes</b></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                    </tr>
+                </tbody>
+             </table>
+
+
+
+        </div>
+
+    </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+    </script>
+</body>
+
+</html>
