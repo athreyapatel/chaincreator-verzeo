@@ -1,0 +1,66 @@
+.list-group-item.list-group-item-action.active {
+  background-color:#d5b069;
+  opacity: 0.7;
+  border: 0px;
+}
+
+.list-group-item.list-group-item-action:hover:not(.active) {
+    background-color: #555;
+  color: #d5b069;
+  border: 1px solid #777;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 10px;
+  font-size: 12px;
+  text-align: center;
+  border-top-style: solid;
+}
+
+.table {
+    padding-bottom: 20px;
+}
+
+div.desc_more{
+  width: 60%;
+  border-right: 1px solid #e5e5e5;
+  float: left;
+  display: table-cell;
+  height: 358px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 5px 6px;
+  float: left;
+  width: 24.99%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
